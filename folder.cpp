@@ -29,11 +29,11 @@ void Files::getFormat()
     }
     input.clear(ios::goodbit);
     inputFormatNum=format.size();
-    //cout<<inputFormatNum<<endl;
-    // for(int j=0;j<inputFormatNum;j++)
-    // {
-    //     cout<<format[j]<<endl;
-    // }
+    cout<<inputFormatNum<<endl;
+    for(int j=0;j<inputFormatNum;j++)
+    {
+        cout<<format[j]<<endl;
+    }
     
 
 }
