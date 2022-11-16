@@ -1,6 +1,6 @@
 #include<iostream>
 #include"OutputFile.h"
-#include"float.h"
+
 using namespace std;
 void MyOutput::writeOut(string a,string b,int f)
 {
